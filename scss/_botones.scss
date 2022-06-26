@@ -1,0 +1,42 @@
+@import 'variables';
+
+.boton{
+font-size: 20px;
+text-decoration: none;
+color: #fff;
+background-color: $color-boton;
+padding: 10px 30px;
+border-radius: 5px;
+}
+
+.boton:hover{
+background-color: $color-boton-hover;
+color: white;
+}
+
+.btn{
+font-size: 20px;
+text-decoration: none;
+color: #fff;
+background-color: $color-boton-especial;
+padding: 10px 30px;
+border-radius: 5px;
+}
+
+.btn:hover{
+color: white;
+background-color: $color-boton-hover;
+}
+
+.boton-comprar{
+font-size: 20px;
+text-decoration: none;
+color: #fff;
+background-color: $color-boton;
+padding: 10px 30px;
+border-radius: 5px;
+}
+
+.boton-comprar:hover{
+background-color: $color-boton-hover;
+}

@@ -1,0 +1,195 @@
+@import 'base';
+@import 'textos';
+@import 'botones';
+@import 'variables';
+
+/*menu*/
+
+.navbar{
+	.navbar-color{
+ 	background-color: white;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+ 	}
+
+ 	.logotipo{
+	width: 90px;
+	padding: 10px 0 10px;
+	transition: all 200ms;
+
+		&:hover{
+		transform: scale(1.1);
+		}
+	}
+
+	.navbar-toggler-icon{
+	background-image: url("../assets/noun-menu-425493.svg");
+	}
+
+	.nav-item .nav-link{
+	color: #202C4C;
+
+		&:hover{
+		color: #92CEE9;
+		}
+	}
+}
+
+/*hero*/
+
+.banner-hero{
+	position: relative;
+	background-image: url("../assets/pink-party-hero.jpg");
+	min-height: 100vh;
+	min-width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 250px 0 200px;
+}
+
+.container-institucional{
+	background-color: white;
+	padding: 50px 40px 50px 40px;
+
+	& .img-institucional{
+		width: 120px;
+		padding-bottom: 30px;
+		transition: all 300ms;
+
+		&:hover{
+			transform: scale(1.1);
+		}
+	}
+}
+
+/*formulario*/
+
+.form{
+	background-color: #F7D066;
+	height: 600px;
+
+	& .container-form{
+		padding: 100px 50px 100px 50px;	
+	}
+}
+
+/*footer*/
+
+footer{
+	background-color: #92CEE9;
+	padding: 50px 0;
+	text-align: center;
+	position: sticky;
+
+	.logotipo-footer{
+		width: 100px;
+	}
+
+	.socials-footer{
+		width: 40px;
+		padding-bottom: 20px;
+		transition: all 300ms;
+
+		&:hover{
+		transform: scale(1.1);
+		}	
+	}
+}
+
+/*NOSOTROS*/
+
+.hero-nosotros{
+	padding: 150px 0 100px 0;
+}
+
+.hero-nosotros-img{
+	padding: 150px 0 100px 0;
+	background-image: url("../assets/birthday-kids.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 80vh;
+	max-width: 100%;
+}
+
+.container-institucional{
+
+	& .img-institucional{
+		transition: all 300ms;
+
+		&:hover{
+		transform: scale(1.1);
+		}
+	}
+}
+
+/*PRODUCTOS*/
+
+.hero-productos{
+	padding: 150px 0 100px 0;
+	background-image: url("../assets/back-tienda.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+	padding: 250px 0 250px 0;
+	max-width: 100%;
+
+	& .light-text{
+		color: white;
+	}
+}
+
+.card{
+	border-color: #e3e3e3;
+
+	& .img-productos-shop{
+	margin: auto;
+	width: 300px;
+	object-fit: cover;
+	}
+
+	& .card-body{
+	text-align: center;
+	}
+}
+
+/*SUCURSALES*/
+
+.icons-shop{
+	width: 80px;
+	transition: all 300ms;
+
+	&:hover{
+	transform: scale(1.1);
+	}	
+}
+
+.sucursales-map{
+	padding: 150px 0 100px 0;
+	height: 80vh;
+	width: 100%;
+}
+
+/*CONTACTO*/
+
+.contact-body{
+	background-color: #BEE1F2;
+	height: 650px;
+}
+
+.container-form{
+	padding: 150px 50px 100px 50px;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 360px){
+
+	.form{
+	  height: 800px;
+	}
+
+	.card .img-productos-shop{
+	  width: 200px;
+	}
+}

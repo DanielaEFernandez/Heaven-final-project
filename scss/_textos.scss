@@ -1,0 +1,32 @@
+@import 'variables';
+
+h1{
+font-size: 40px;
+font-weight: 700;
+color: $color-texto;
+padding-bottom: 20px;
+}
+
+h5{
+font-weight: 700;
+color: $color-texto;
+}
+
+h6{
+font-weight: 700;
+font-size: 30px;
+color: $color-texto;
+}
+
+p{
+font-weight: 300;
+color: $color-texto;
+padding-bottom: 20px;
+}
+
+h3{
+font-size: 20px;
+font-weight: 700;
+color: $color-texto;
+padding-top: 30px;
+}

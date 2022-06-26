@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:ital,wght@0,100;0,200;0,900;1,100&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-wsp {
+  position: fixed;
+  line-height: 30px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+.btn-wsp img {
+  width: 65px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #202C4C;
+  padding-bottom: 20px;
+}
+
+h5 {
+  font-weight: 700;
+  color: #202C4C;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #202C4C;
+}
+
+p {
+  font-weight: 300;
+  color: #202C4C;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #202C4C;
+  padding-top: 30px;
+}
+
+.boton {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0099D9;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #202C4C;
+  color: white;
+}
+
+.btn {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #BD3376;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #202C4C;
+}
+
+.boton-comprar {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0099D9;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.boton-comprar:hover {
+  background-color: #202C4C;
+}
+
+/*menu*/
+.navbar .navbar-color {
+  background-color: white;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+.navbar .logotipo {
+  width: 90px;
+  padding: 10px 0 10px;
+  transition: all 200ms;
+}
+.navbar .logotipo:hover {
+  transform: scale(1.1);
+}
+.navbar .navbar-toggler-icon {
+  background-image: url("../assets/noun-menu-425493.svg");
+}
+.navbar .nav-item .nav-link {
+  color: #202C4C;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #92CEE9;
+}
+
+/*hero*/
+.banner-hero {
+  position: relative;
+  background-image: url("../assets/pink-party-hero.jpg");
+  min-height: 100vh;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 250px 0 200px;
+}
+
+.container-institucional {
+  background-color: white;
+  padding: 50px 40px 50px 40px;
+}
+.container-institucional .img-institucional {
+  width: 120px;
+  padding-bottom: 30px;
+  transition: all 300ms;
+}
+.container-institucional .img-institucional:hover {
+  transform: scale(1.1);
+}
+
+/*formulario*/
+.form {
+  background-color: #F7D066;
+  height: 600px;
+}
+.form .container-form {
+  padding: 100px 50px 100px 50px;
+}
+
+/*footer*/
+footer {
+  background-color: #92CEE9;
+  padding: 50px 0;
+  text-align: center;
+  position: sticky;
+}
+footer .logotipo-footer {
+  width: 100px;
+}
+footer .socials-footer {
+  width: 40px;
+  padding-bottom: 20px;
+  transition: all 300ms;
+}
+footer .socials-footer:hover {
+  transform: scale(1.1);
+}
+
+/*NOSOTROS*/
+.hero-nosotros {
+  padding: 150px 0 100px 0;
+}
+
+.hero-nosotros-img {
+  padding: 150px 0 100px 0;
+  background-image: url("../assets/birthday-kids.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  max-width: 100%;
+}
+
+.container-institucional .img-institucional {
+  transition: all 300ms;
+}
+.container-institucional .img-institucional:hover {
+  transform: scale(1.1);
+}
+
+/*PRODUCTOS*/
+.hero-productos {
+  padding: 150px 0 100px 0;
+  background-image: url("../assets/back-tienda.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  padding: 250px 0 250px 0;
+  max-width: 100%;
+}
+.hero-productos .light-text {
+  color: white;
+}
+
+.card {
+  border-color: #e3e3e3;
+}
+.card .img-productos-shop {
+  margin: auto;
+  width: 300px;
+  object-fit: cover;
+}
+.card .card-body {
+  text-align: center;
+}
+
+/*SUCURSALES*/
+.icons-shop {
+  width: 80px;
+  transition: all 300ms;
+}
+.icons-shop:hover {
+  transform: scale(1.1);
+}
+
+.sucursales-map {
+  padding: 150px 0 100px 0;
+  height: 80vh;
+  width: 100%;
+}
+
+/*CONTACTO*/
+.contact-body {
+  background-color: #BEE1F2;
+  height: 650px;
+}
+
+.container-form {
+  padding: 150px 50px 100px 50px;
+}
+
+/*media queries*/
+@media only screen and (max-width: 360px) {
+  .form {
+    height: 800px;
+  }
+  .card .img-productos-shop {
+    width: 200px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
