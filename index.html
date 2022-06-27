@@ -74,44 +74,42 @@
         </div>
       </div>
     </section>
-    <!--formulario-->
+    <!--form-->
     <div class="form">
-      <div class="container-form mt-5">
-        <h1>¡Suscribite y recibí todas nuestras promociones!</h1>
-        <p>¡Enterate primero que nadie de increíbles ofertas!</p>
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="firstName" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="firstName" required>
+      <div class="container-form mt-3">
+          <h1>¡Suscribite y recibí todas nuestras promociones!</h1>
+          <p>¡Enterate primero que nadie de increíbles ofertas!</p>
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="nombre" required>
           </div>
-          <div class="col-md-6">
-            <label for="lastName" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="lastName" required>
+          <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email"required>
           </div>
-          <div class="col-md-8">
-            <label for="emailInfo" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="emailInfo"required>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="terms">Acepto los términos y condiciones</label>
           </div>
-          <div class="col-md-12">
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">ENVIAR</button>
-          </div>
+          <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">ENVIAR</button>
         </form>
       </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 id="exampleModalLabel">¡Genial!</h3>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            ¡Muchas gracias por suscribirte a nuestro newsletter!
-            Ahora vas a enterarte de las mejores ofertas y promociones a través de tu email.
-          </div>
-          <div class="modal-footer">
-            <a href="productos.html" class="btn">IR A LA TIENDA</a>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 id="exampleModalLabel">¡Genial!</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ¡Muchas gracias por suscribirte a nuestro newsletter!
+              Ahora vas a enterarte de las mejores ofertas y promociones a través de tu email.
+            </div>
+            <div class="modal-footer">
+              <a href="productos.html" class="btn">IR A LA TIENDA</a>
+            </div>
           </div>
         </div>
       </div>
